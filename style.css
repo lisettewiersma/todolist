@@ -1,0 +1,88 @@
+/* 
+KLEUREN
+#E8D6D4 - wit
+#b2cac9 - lichtblauw
+#6da49d - blauw
+#d7817D - lichtroze
+#cd4855 - roze
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #E8D6D4;
+    width: 100vw;
+    margin: 1% 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#todoInput {
+    height: 6em;
+    width: 100em;
+    text-align: center;
+    color: #436661;
+    border: none;
+}
+
+.button {
+    margin: 0;
+    height: 6.2em;
+    width: 6em;
+    background-color: #b2cac9;
+    border: none;
+    color: #436661;
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    background-color: #d7817d;
+    width: 86.5em;
+    height: 3em;
+    padding: 1em;
+    margin: 1em 0;
+    top: 1em;
+}
+
+.remove {
+    background-color: #cd4555;
+    width: 10em;
+    height: 3em;
+    border: none;
+    position: relative;
+    float: right;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+.done {
+    background-color: #cd4555;
+    width: 10em;
+    height: 3em;
+    border: none;
+    position: relative;
+    float: right;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+#done {
+    background-color: #b2cac9;
+    text-decoration-line: line-through;
+}
+
+#done .done {
+    background-color: #6da49d;
+}
+
+#done .remove {
+    background: #6da49d;
+}
